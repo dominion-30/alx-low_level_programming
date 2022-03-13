@@ -10,6 +10,6 @@ putchar(lower);
 upper = toupper(lower);
 putchar(upper);
 
-putchar("\n");
+putchar('\n');
 return(0);
 }
