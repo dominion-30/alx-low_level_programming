@@ -2,20 +2,15 @@
 int main(void)
 {
 char letter;
-letter = "a";
-while (letter <= "z")
-{
-	if (letter == "q" || letter== "e")
-	{
+for(letter = "a"; letter <="z"; letter++){
+
+	if (letter =="e" || letter="q"){
 	
 		continue;
 	}
-	else
-	{
-	
-		putchar(letter);
+	else{
+	putchar(letter);
 	}
-	letter++;
 }
 return(0);
 
