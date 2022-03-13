@@ -2,11 +2,13 @@
 int main(void)
 /*this function return an object of type char*/
 {
-	char ch;
-	
+	int ch;
+	int space;
 	ch = getchar();
 	putchar(ch);
-	putchar();
+	space = getchar();
+
+	putchar(space);
 
 	
 
