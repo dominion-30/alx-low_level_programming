@@ -2,10 +2,14 @@
 int main(void)
 /*this function return an object of type char*/
 {
-	char ch;
-	getchar("Enter an alphabet %c\n", ch);
+	char prompt;
+	char alphabet;
+	prompt = "Enter an alphabet";
+	putchar(prompt);
 
-	putchar(ch);
+	getchar(alphabet);
+	putchar(alphabet);
+
 
 	return(0);
 
