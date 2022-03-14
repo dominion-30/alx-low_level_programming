@@ -4,16 +4,9 @@ int main(void)
 	/*this program returns the object of type int*/
 int i;/*i is counter variable*/
 
-int c;
-i = 0;
-c = getchar();
-for (i=0; i<10; i++)
-{
-
-
+while ((i = getchar()) != EOF)
 	putchar(i);
-	putchar("\n");
-}
+        i++;
 return(0);
 
 }
