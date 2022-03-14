@@ -6,9 +6,8 @@ int main(void)
 /*i is counter variable*/
 int i;
 
-while((i = getchar()) != EOF)
+for(i = 0; i<10;  i++)
 	putchar(i);
-        i++;
 return(0);
 
 }
