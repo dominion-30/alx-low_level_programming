@@ -1,17 +1,11 @@
 #include<stdio.h>
 #include <stdlib.h>
 #include <time.h>
-/* more headers goes there */
-
-/* betty style doc for function main goes there */
-
 /**
- * 0-positive_or_negative-if the number is greater than 0: is positive
- * if the number is 0: is zero
- * if the number is less than 0: is negative
- *
- */ 
-
+*main- prints whether the number stored in the variable n is positive or negative
+*
+*Return: Always 0 (Success)
+*/
 int main(void)
 {
 	int n;
@@ -22,7 +16,7 @@ int main(void)
 	else if(n < 0)
 		printf("%d is negative\n", n);
 	else
-		printf("%d is zero\n", n);					/* your code goes there */
+		printf("%d is zero\n", n);				
 	return (0);
 	
 }
