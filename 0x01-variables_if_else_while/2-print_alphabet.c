@@ -1,6 +1,15 @@
+/*
+*Author: Abiola Ayobamidele
+*/
+
 #include <stdio.h>
 int main(void)
-/*this function return an object of type char*/
+/**
+*main: prints alphabet in lowercase
+*followed by newline
+*
+*Return Always 0 (Success)
+**/
 {
 	int ch;
 	int space;
