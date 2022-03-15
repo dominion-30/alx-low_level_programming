@@ -1,13 +1,16 @@
-/**
-Contributor: Abiola Ayobamidele
-**/
+/*
+*Contributor: Abiola Ayobamidele
+*/
+
 #include<stdio.h>
 #include <stdlib.h>
 #include <time.h>
+
 /**
 *main- prints whether number is positive or negative
 *Return: Always 0 (Success)
 */
+
 int main(void)
 {
 	int n;
