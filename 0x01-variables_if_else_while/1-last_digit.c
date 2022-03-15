@@ -11,14 +11,12 @@
 *
 *Return: Always Success 
 */
+
+
+
 int main(void)
 {
 
-/**
- * Main:print random numbers with 'if' description
- *
- * Return 0
-*/
 	int n;
 	int last_digit;
 	(time(0));
