@@ -3,7 +3,6 @@
 */
 
 #include <stdio.h>
-#include <ctype.h>
 
 /**
 * main: lowercase and uppercase alphabets
@@ -16,7 +15,9 @@ int main(void)
 	char letter;
 	for (letter ='a'; letter<='z'; letter++)
 		putchar(letter);
-		putchar(toupper(letter));
+	
+	for (letter ='A'; letter<='Z'; letter++)
+		putchar(letter);
 
 	putchar('\n');
 	return(0);
