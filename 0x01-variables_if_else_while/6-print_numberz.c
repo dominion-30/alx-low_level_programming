@@ -1,13 +1,17 @@
 #include<stdio.h>
+/**
+* main- 0 to 9
+*
+* Return: Always 0 (Success)
+**/
 int main(void)
 {
-	/*this program returns the object of type int*/
 
-/*i is counter variable*/
-int i;
+	int i;
 
-for(i = 0; i<10;  i++)
-	putchar(i);
-return(0);
+	for(i = '0'; i <= '9';  i++)
+		putchar(i);
+	putchar('\n');
+	return(0);
 
 }
