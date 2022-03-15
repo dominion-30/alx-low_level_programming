@@ -9,7 +9,7 @@
 /**
 *main: print last digit
 *
-*Return: Always Success 
+*Return: Always 0 (Success )
 */
 
 
