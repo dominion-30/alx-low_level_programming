@@ -3,24 +3,19 @@
 */
 
 #include <stdio.h>
-int main(void)
 /**
-*main: prints alphabet in lowercase
+*main: print alphabet in lowercase
 *followed by newline
 *
 *Return Always 0 (Success)
 **/
+
+int main(void)
 {
-	int ch;
-	int space;
-	ch = getchar();
-	putchar(ch);
-	space = getchar();
-
-	putchar(space);
-
-	
-
+	char ch;
+	for (ch = 'a'; ch <= "z" ch++)
+		putchar(ch);
+	putchar('\n');
 
 	return(0);
 
