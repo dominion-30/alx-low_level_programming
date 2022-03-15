@@ -10,7 +10,7 @@
 *main: print last digit
 *
 *Return: Always 0 (Success )
-*/
+**/
 
 
 
