@@ -13,4 +13,20 @@ int _putchar(char c)
 }
 	
 
+/**
+* print_alphabet - write the letters to stdout
+*
+* Return: On success 1.
+*/
 
+void print_alphabet(void);
+{
+	char ch;
+	for(ch='a'; ch<='z'; ch++);
+	{
+		_putchar(ch);
+	}
+	_putchar('\n');
+	return(0);
+	
+}
