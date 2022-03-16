@@ -3,7 +3,7 @@
 /**
 * print_alphabet() - prints lowercase letters of alphabet to stdout
 *
-* Return : void
+* Return : Always 0 success
 *
 */
 
