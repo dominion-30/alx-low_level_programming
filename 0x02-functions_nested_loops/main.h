@@ -1,5 +1,3 @@
-#include <unistd.h>
-
 /**
 * _putchar - writes the character c to stdout
 * @c: The character to print
@@ -19,14 +17,4 @@ int _putchar(char c)
 * Return: On success 1.
 */
 
-void print_alphabet(void);
-{
-	char ch;
-	for(ch='a'; ch<='z'; ch++);
-	{
-		_putchar(ch);
-	}
-	_putchar('\n');
-	return(0);
-	
-}
+void print_alphabet(void)
