@@ -9,22 +9,38 @@
 int main()
 {
 	char first_character;
-	char second_character;
-	char third_character;
-	char fourth_character;
-	char fifth_character;
-	char sixth_character;
-	char seventh_character;
-	char eighth_character;
 
 	first_character = _putchar('_');
+
+	char second_character;
+
 	second_character = _putchar('p');
-	third_character =_putchar('u');
+
+	char third_character;
+
+	third_character = _putchar('u');
+
+	char fourth_character;
+
 	fourth_character = _putchar('t');
+
+	char fifth_character;
+
 	fifth_character = _putchar('c');
+
+	char sixth_character;
+
 	sixth_character = _putchar('h');
+
+	char seventh_character;
+
 	seventh_character = _putchar('a');
-	eighth_character = _putchar('r');
+
+	char eighth_character;
+
+	eight_character = _putchar('r');
+
+	
         _putchar('\n');
 	return(0);
 }
