@@ -6,17 +6,18 @@
 */
 
 int _islower(int c)
-{	
-	int result;
-	if islower(c) > 0
-	{	result = 1;
+{	int result;	
+	result = 1;
+	if (islower(c) > 0)
+	{
 		return (result);
 	}
-	else if islower(c) == 0
+	result= 0;
+	if (islower(c) == 0)
 
-	{	result = 0;
+	{	
 		return(result); 
 	}
 	
-
+	return (result);
 }
