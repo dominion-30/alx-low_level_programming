@@ -18,3 +18,12 @@ int _putchar(char c);
 */
 
 void print_alphabet(void);
+
+
+/**
+* print 10x the alphabet in lowercase followed by newline
+*
+* Return: void
+*/
+
+void print_alphabet_x10(void);
