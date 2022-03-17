@@ -89,3 +89,12 @@ void jack_bauer(void);
 */
 
 int add(int x, int y);
+
+
+
+/**
+* print all natural number from n to 98
+*
+* Return: Always 0 success
+*/
+void print_to_98(int n);
