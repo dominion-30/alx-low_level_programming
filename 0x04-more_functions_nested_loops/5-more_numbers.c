@@ -7,19 +7,26 @@
 */
 
 void more_numbers(void)
-{    	/* counter = counter variable*/ 
-	 int counter;
-	 counter = 1;
-	 while (counter <=10)
-	 {	/*num  keeps track of the number*/
-	 	char num;
-		for (num = '0'; num<='14'; num++)
+{  
+	int number, tens, unit, row;
+	for (row=0; row<=10; row++)
+	{
+		for (number=0; number<=14; number++)
 		{
-			_putchar(num);
-		} 
-		counter = counter + 1;
-	 }
-	 _putchar('\n');
+			tens = number /10;
+			unit = number % 10;
 
+			if (number >9)
+			{
+				_putchar(tens + '0');
+			}
+			_putchar(unit + '0');
+		
+		}
+		_putchar('\n');
+	}
 
 }
+
+
+
