@@ -61,3 +61,11 @@ void print_most_numbers(void);
 
 void more_numbers(void);
 
+/**
+* void print_line(int n) draws a straight line in the terminal
+*
+* Return void
+*/
+
+void print_line(int n);
+
