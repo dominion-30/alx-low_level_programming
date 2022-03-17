@@ -1,7 +1,9 @@
 #include "main.h"
 
 /**
-* more_numbers -  prints 0 to 14 ten times
+* more_numbers -  entry point
+*
+*prints the number with _putchar
 *
 * Return: void
 */
