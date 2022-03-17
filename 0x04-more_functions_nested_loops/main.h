@@ -21,3 +21,7 @@ int _isdigit(int c);
 *
 * Return the result
 */
+
+int mul(int a, int b);
+
+
