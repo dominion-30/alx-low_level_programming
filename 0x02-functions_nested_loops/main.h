@@ -44,3 +44,14 @@ int _islower(int c);
 * Return 0 otherwise
 */
 int _isalpha(int c);
+
+
+
+/**
+* int print_sign(int n) prints the sign of a number
+* Return 1 and prints 1 if n is greater than zero
+* Return 0 and prints 0 if n is zero
+* Return -1 and print -1 if n is less than zero
+*/
+
+int print_sign(int n);
