@@ -50,3 +50,14 @@ int _putchar(char c);
 
 void print_most_numbers(void);
 
+
+
+/**
+* void more_numbers(void) print 10 time the number 0 to 14 
+* followed by new line
+*
+* Return void
+*/
+
+void more_numbers(void);
+
