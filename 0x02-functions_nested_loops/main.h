@@ -69,7 +69,7 @@ int _abs(int c);
 /**
 * print last of a number
 *
-* Return: Always 0 success
+* Return: the value of the last digit
 */
 
-int print_last_digit(int);
+int print_last_digit(int num);
