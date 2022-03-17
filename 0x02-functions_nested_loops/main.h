@@ -73,3 +73,19 @@ int _abs(int c);
 */
 
 int print_last_digit(int num);
+
+
+/**
+* print every minute of the day of Jack Bauer
+*
+* Return: void
+*/
+void jack_bauer(void);
+
+/**
+* function that adds two integers
+*
+* Returns the result of the summation
+*/
+
+int add(int x, int y);
