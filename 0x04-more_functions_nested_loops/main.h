@@ -17,7 +17,7 @@ int _isdigit(int c);
 
 
 /**
-* int mul(int a, int b); function that multiplies two numbers
+* int mul(int a, int b) function that multiplies two numbers
 *
 * Return the result
 */
@@ -25,3 +25,18 @@ int _isdigit(int c);
 int mul(int a, int b);
 
 
+/**
+* void print_numbers(void) print number 0 to 9 on stdout
+*
+* Return void
+*/
+
+void print_numbers(void);
+
+/**
+* _putchar write character c to stdout
+* Returns 1 on success
+* Returns -1 on error
+*/
+
+int _putchar(char c);
