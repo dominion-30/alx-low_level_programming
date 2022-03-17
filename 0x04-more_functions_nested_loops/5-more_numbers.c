@@ -12,8 +12,8 @@ void more_numbers(void)
 	 counter = 1;
 	 while (counter <=10)
 	 {	/*num  keeps track of the number*/
-	 	int num;
-		for (num = 0; num<=14; num++)
+	 	char num;
+		for (num = '0'; num<='14'; num++)
 		{
 			_putchar(num);
 		} 
