@@ -92,3 +92,11 @@ void print_square(int size);
 */
 
 void print_triangle(int size);
+
+
+/**
+* void print_number(int n) function that prints number
+*
+* Return void
+*/
+void print_number(int n);
