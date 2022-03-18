@@ -84,3 +84,11 @@ void print_diagonal(int n);
 * Return void
 */
 void print_square(int size);
+
+/**
+* void print_triangle(int size) prints triangle on terminal
+*
+* Return void
+*/
+
+void print_triangle(int size);
