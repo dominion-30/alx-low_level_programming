@@ -21,3 +21,7 @@ int _putchar(char c);
 /* prototype for function that prints a string in reverse*/
 
 void print_rev(char *s);
+
+/* prototype for function that reverses a string*/
+void rev_string(char *s);
+
