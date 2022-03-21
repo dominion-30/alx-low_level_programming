@@ -36,3 +36,6 @@ void puts_half(char *str);
 /* prototype for function that prints n elements of an array of integers, followed by a newline*/
 
 void print_array(int *a, int n);
+
+/* prototype for function that copies a string pointed to by src ...*/
+char *_strcpy(char *dest, char *src);
