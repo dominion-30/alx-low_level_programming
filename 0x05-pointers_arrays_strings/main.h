@@ -16,3 +16,8 @@ void _puts(char *str);
 /* prototype for function that prints character c to stdout*/
 
 int _putchar(char c);
+
+
+/* prototype for function that prints a string in reverse*/
+
+void print_rev(char *s);
