@@ -25,3 +25,6 @@ void print_rev(char *s);
 /* prototype for function that reverses a string*/
 void rev_string(char *s);
 
+/* prototype to function that prints every other character of a string, starting from the first character*/
+
+void puts2(char *str);
