@@ -32,3 +32,7 @@ void puts2(char *str);
 /* prototype to function that prints half of a string, followed by a newline*/
 
 void puts_half(char *str);
+
+/* prototype for function that prints n elements of an array of integers, followed by a newline*/
+
+void print_array(int *a, int n);
