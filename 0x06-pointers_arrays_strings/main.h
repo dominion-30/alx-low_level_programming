@@ -8,3 +8,7 @@ char *_strncat(char *dest, char *src, int n);
 
 /* prototype for a function that copies a string*/
 char *_strncpy(char *dest, char *src, int n);
+
+/* prototypr for a function that compares two string*/
+int _strcmp(char *s1, char *s2);
+
