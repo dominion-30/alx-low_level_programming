@@ -29,3 +29,14 @@ char *cap_string(char *);
 
 char *leet(char *);
 
+
+/* prototype for a function that encodes a string using rot13*/
+char *rot13(char *);
+
+/* prototype for a function that prints an integer*/
+
+void print_number(int n);
+
+
+/* prototype for a function that writes the character c to stdout*/
+int _putchar(char c);
